@@ -1,7 +1,7 @@
 OUTPUT "are we insane?"
 INPUT ans
-IF ans = "yes" THEN
-	OUTPUT "correct"
+IF ans = "no" THEN
+	OUTPUT "good"
 ELSE
-	OUTPUT "incorrect"
+	OUTPUT "bad"
 ENDIF
